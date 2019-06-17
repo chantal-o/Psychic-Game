@@ -1,1 +1,63 @@
+<!-- Step 1: Create the Layout. -->
+<!-- Step 2: Flag key sections with specific id names. These will be replaced by JavaScript -->
+<!-- Step 2: Link to JavaScript (at end of the file) -->
 
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Pyschic Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+</head>
+
+  <div class="header">
+    
+      <h1>The Pyschic Game</h1>
+
+    </div>
+  
+  <div class="container">
+    
+      <h3>Guess what letter I'm thinking of</h3>
+    
+         Wins:
+      
+        <div id="totalWins">
+          0
+        </div>
+    
+        <br>
+       Losses:
+      
+        <div id="totalLosses">
+          0
+    
+        </div>
+
+        <br>
+       Guesses left:
+    
+        <div id="guessCount">
+          10
+        </div>
+
+        <br>
+        Your guesses so far:
+      
+        <div id="guessedLetters">
+           
+
+        </div>
+    </div>
+
+    <container>
+
+        <img src="assets/images/psychic.jpeg" id="psychic" alt="crystal ball">
+
+    </container>
+    
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
